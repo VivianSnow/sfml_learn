@@ -1,0 +1,25 @@
+cmake_minimum_required(VERSION 2.8.4)
+project(sfml_learn)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -static")
+set(CMAKE_CXX_STANDARD 14)
+
+set(CMAKE_MODULE_PATH "C:\\SFML-2.4.2\\cmake\\Modules")
+if(WIN32)
+    set(SFML_ROOT "C:\\SFML-2.4.2")
+endif(WIN32)
+
+set(SFML_STATIC_LIBRARIES TRUE)
+#set(CMAKE_BUILD_TYPE Release)
+find_package(SFML 2 REQUIRED network audio graphics window system)
+include_directories(${SFML_INCLUDE_DIR} ${PROJECT_SOURCE_DIR})
+set(SOURCE_FILES main.cpp   )
+set(HEADER_FILES            )
+#add_executable(sfml_learn ${SOURCE_FILES} ${HEADER_FILES})
+
+if (CMAKE_BUILD_TYPE STREQUAL "Release")
+    add_executable(${PROJECT_NAME} WIN32 ${SOURCE_FILES})
+else ()
+    add_executable(${PROJECT_NAME} ${SOURCE_FILES})
+endif ()
+
+target_link_libraries(sfml_learn ${SFML_LIBRARIES} ${SFML_DEPENDENCIES})

@@ -1,0 +1,5 @@
+"C:\Program Files\JetBrains\CLion 2017.3.1\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - MinGW Makefiles" C:\Users\VivianSnow\Desktop\sfml_learn
+-- Found SFML 2.4.2 in C:/SFML-2.4.2/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/VivianSnow/Desktop/sfml_learn/cmake-build-release
