@@ -17,10 +17,7 @@ int main()
                     window.close();
             }
         }
-<<<<<<< HEAD
-=======
 //        shape.move(10, 0);
->>>>>>> ef48c385e98e5b1f2e46e8ed1fe99632d088371b
         window.clear();
         window.draw(shape);
         window.display();
