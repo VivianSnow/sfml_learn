@@ -1,3 +1,0 @@
-C:/Users/VivianSnow/Desktop/sfml_learn/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/VivianSnow/Desktop/sfml_learn/cmake-build-debug/CMakeFiles/sfml_learn.dir
-C:/Users/VivianSnow/Desktop/sfml_learn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
