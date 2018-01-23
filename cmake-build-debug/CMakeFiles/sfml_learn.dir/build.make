@@ -81,14 +81,122 @@ CMakeFiles/sfml_learn.dir/main.cpp.obj.provides: CMakeFiles/sfml_learn.dir/main.
 CMakeFiles/sfml_learn.dir/main.cpp.obj.provides.build: CMakeFiles/sfml_learn.dir/main.cpp.obj
 
 
+CMakeFiles/sfml_learn.dir/Frog.cpp.obj: CMakeFiles/sfml_learn.dir/flags.make
+CMakeFiles/sfml_learn.dir/Frog.cpp.obj: CMakeFiles/sfml_learn.dir/includes_CXX.rsp
+CMakeFiles/sfml_learn.dir/Frog.cpp.obj: ../Frog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\VivianSnow\Desktop\sfml_learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sfml_learn.dir/Frog.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml_learn.dir\Frog.cpp.obj -c C:\Users\VivianSnow\Desktop\sfml_learn\Frog.cpp
+
+CMakeFiles/sfml_learn.dir/Frog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_learn.dir/Frog.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\VivianSnow\Desktop\sfml_learn\Frog.cpp > CMakeFiles\sfml_learn.dir\Frog.cpp.i
+
+CMakeFiles/sfml_learn.dir/Frog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_learn.dir/Frog.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\VivianSnow\Desktop\sfml_learn\Frog.cpp -o CMakeFiles\sfml_learn.dir\Frog.cpp.s
+
+CMakeFiles/sfml_learn.dir/Frog.cpp.obj.requires:
+
+.PHONY : CMakeFiles/sfml_learn.dir/Frog.cpp.obj.requires
+
+CMakeFiles/sfml_learn.dir/Frog.cpp.obj.provides: CMakeFiles/sfml_learn.dir/Frog.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\sfml_learn.dir\build.make CMakeFiles/sfml_learn.dir/Frog.cpp.obj.provides.build
+.PHONY : CMakeFiles/sfml_learn.dir/Frog.cpp.obj.provides
+
+CMakeFiles/sfml_learn.dir/Frog.cpp.obj.provides.build: CMakeFiles/sfml_learn.dir/Frog.cpp.obj
+
+
+CMakeFiles/sfml_learn.dir/Truck.cpp.obj: CMakeFiles/sfml_learn.dir/flags.make
+CMakeFiles/sfml_learn.dir/Truck.cpp.obj: CMakeFiles/sfml_learn.dir/includes_CXX.rsp
+CMakeFiles/sfml_learn.dir/Truck.cpp.obj: ../Truck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\VivianSnow\Desktop\sfml_learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sfml_learn.dir/Truck.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml_learn.dir\Truck.cpp.obj -c C:\Users\VivianSnow\Desktop\sfml_learn\Truck.cpp
+
+CMakeFiles/sfml_learn.dir/Truck.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_learn.dir/Truck.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\VivianSnow\Desktop\sfml_learn\Truck.cpp > CMakeFiles\sfml_learn.dir\Truck.cpp.i
+
+CMakeFiles/sfml_learn.dir/Truck.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_learn.dir/Truck.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\VivianSnow\Desktop\sfml_learn\Truck.cpp -o CMakeFiles\sfml_learn.dir\Truck.cpp.s
+
+CMakeFiles/sfml_learn.dir/Truck.cpp.obj.requires:
+
+.PHONY : CMakeFiles/sfml_learn.dir/Truck.cpp.obj.requires
+
+CMakeFiles/sfml_learn.dir/Truck.cpp.obj.provides: CMakeFiles/sfml_learn.dir/Truck.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\sfml_learn.dir\build.make CMakeFiles/sfml_learn.dir/Truck.cpp.obj.provides.build
+.PHONY : CMakeFiles/sfml_learn.dir/Truck.cpp.obj.provides
+
+CMakeFiles/sfml_learn.dir/Truck.cpp.obj.provides.build: CMakeFiles/sfml_learn.dir/Truck.cpp.obj
+
+
+CMakeFiles/sfml_learn.dir/Game.cpp.obj: CMakeFiles/sfml_learn.dir/flags.make
+CMakeFiles/sfml_learn.dir/Game.cpp.obj: CMakeFiles/sfml_learn.dir/includes_CXX.rsp
+CMakeFiles/sfml_learn.dir/Game.cpp.obj: ../Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\VivianSnow\Desktop\sfml_learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sfml_learn.dir/Game.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml_learn.dir\Game.cpp.obj -c C:\Users\VivianSnow\Desktop\sfml_learn\Game.cpp
+
+CMakeFiles/sfml_learn.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_learn.dir/Game.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\VivianSnow\Desktop\sfml_learn\Game.cpp > CMakeFiles\sfml_learn.dir\Game.cpp.i
+
+CMakeFiles/sfml_learn.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_learn.dir/Game.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\VivianSnow\Desktop\sfml_learn\Game.cpp -o CMakeFiles\sfml_learn.dir\Game.cpp.s
+
+CMakeFiles/sfml_learn.dir/Game.cpp.obj.requires:
+
+.PHONY : CMakeFiles/sfml_learn.dir/Game.cpp.obj.requires
+
+CMakeFiles/sfml_learn.dir/Game.cpp.obj.provides: CMakeFiles/sfml_learn.dir/Game.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\sfml_learn.dir\build.make CMakeFiles/sfml_learn.dir/Game.cpp.obj.provides.build
+.PHONY : CMakeFiles/sfml_learn.dir/Game.cpp.obj.provides
+
+CMakeFiles/sfml_learn.dir/Game.cpp.obj.provides.build: CMakeFiles/sfml_learn.dir/Game.cpp.obj
+
+
+CMakeFiles/sfml_learn.dir/BaseObject.cpp.obj: CMakeFiles/sfml_learn.dir/flags.make
+CMakeFiles/sfml_learn.dir/BaseObject.cpp.obj: CMakeFiles/sfml_learn.dir/includes_CXX.rsp
+CMakeFiles/sfml_learn.dir/BaseObject.cpp.obj: ../BaseObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\VivianSnow\Desktop\sfml_learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sfml_learn.dir/BaseObject.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml_learn.dir\BaseObject.cpp.obj -c C:\Users\VivianSnow\Desktop\sfml_learn\BaseObject.cpp
+
+CMakeFiles/sfml_learn.dir/BaseObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml_learn.dir/BaseObject.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\VivianSnow\Desktop\sfml_learn\BaseObject.cpp > CMakeFiles\sfml_learn.dir\BaseObject.cpp.i
+
+CMakeFiles/sfml_learn.dir/BaseObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml_learn.dir/BaseObject.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\VivianSnow\Desktop\sfml_learn\BaseObject.cpp -o CMakeFiles\sfml_learn.dir\BaseObject.cpp.s
+
+CMakeFiles/sfml_learn.dir/BaseObject.cpp.obj.requires:
+
+.PHONY : CMakeFiles/sfml_learn.dir/BaseObject.cpp.obj.requires
+
+CMakeFiles/sfml_learn.dir/BaseObject.cpp.obj.provides: CMakeFiles/sfml_learn.dir/BaseObject.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\sfml_learn.dir\build.make CMakeFiles/sfml_learn.dir/BaseObject.cpp.obj.provides.build
+.PHONY : CMakeFiles/sfml_learn.dir/BaseObject.cpp.obj.provides
+
+CMakeFiles/sfml_learn.dir/BaseObject.cpp.obj.provides.build: CMakeFiles/sfml_learn.dir/BaseObject.cpp.obj
+
+
 # Object files for target sfml_learn
 sfml_learn_OBJECTS = \
-"CMakeFiles/sfml_learn.dir/main.cpp.obj"
+"CMakeFiles/sfml_learn.dir/main.cpp.obj" \
+"CMakeFiles/sfml_learn.dir/Frog.cpp.obj" \
+"CMakeFiles/sfml_learn.dir/Truck.cpp.obj" \
+"CMakeFiles/sfml_learn.dir/Game.cpp.obj" \
+"CMakeFiles/sfml_learn.dir/BaseObject.cpp.obj"
 
 # External object files for target sfml_learn
 sfml_learn_EXTERNAL_OBJECTS =
 
 sfml_learn.exe: CMakeFiles/sfml_learn.dir/main.cpp.obj
+sfml_learn.exe: CMakeFiles/sfml_learn.dir/Frog.cpp.obj
+sfml_learn.exe: CMakeFiles/sfml_learn.dir/Truck.cpp.obj
+sfml_learn.exe: CMakeFiles/sfml_learn.dir/Game.cpp.obj
+sfml_learn.exe: CMakeFiles/sfml_learn.dir/BaseObject.cpp.obj
 sfml_learn.exe: CMakeFiles/sfml_learn.dir/build.make
 sfml_learn.exe: C:/SFML-2.4.2/lib/libsfml-network-s-d.a
 sfml_learn.exe: C:/SFML-2.4.2/lib/libsfml-audio-s-d.a
@@ -112,7 +220,7 @@ sfml_learn.exe: C:/SFML-2.4.2/lib/libogg.a
 sfml_learn.exe: CMakeFiles/sfml_learn.dir/linklibs.rsp
 sfml_learn.exe: CMakeFiles/sfml_learn.dir/objects1.rsp
 sfml_learn.exe: CMakeFiles/sfml_learn.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\VivianSnow\Desktop\sfml_learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sfml_learn.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\VivianSnow\Desktop\sfml_learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable sfml_learn.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sfml_learn.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +229,10 @@ CMakeFiles/sfml_learn.dir/build: sfml_learn.exe
 .PHONY : CMakeFiles/sfml_learn.dir/build
 
 CMakeFiles/sfml_learn.dir/requires: CMakeFiles/sfml_learn.dir/main.cpp.obj.requires
+CMakeFiles/sfml_learn.dir/requires: CMakeFiles/sfml_learn.dir/Frog.cpp.obj.requires
+CMakeFiles/sfml_learn.dir/requires: CMakeFiles/sfml_learn.dir/Truck.cpp.obj.requires
+CMakeFiles/sfml_learn.dir/requires: CMakeFiles/sfml_learn.dir/Game.cpp.obj.requires
+CMakeFiles/sfml_learn.dir/requires: CMakeFiles/sfml_learn.dir/BaseObject.cpp.obj.requires
 
 .PHONY : CMakeFiles/sfml_learn.dir/requires
 

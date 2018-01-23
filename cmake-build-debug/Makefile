@@ -122,6 +122,114 @@ sfml_learn/fast:
 	$(MAKE) -f CMakeFiles\sfml_learn.dir\build.make CMakeFiles/sfml_learn.dir/build
 .PHONY : sfml_learn/fast
 
+BaseObject.obj: BaseObject.cpp.obj
+
+.PHONY : BaseObject.obj
+
+# target to build an object file
+BaseObject.cpp.obj:
+	$(MAKE) -f CMakeFiles\sfml_learn.dir\build.make CMakeFiles/sfml_learn.dir/BaseObject.cpp.obj
+.PHONY : BaseObject.cpp.obj
+
+BaseObject.i: BaseObject.cpp.i
+
+.PHONY : BaseObject.i
+
+# target to preprocess a source file
+BaseObject.cpp.i:
+	$(MAKE) -f CMakeFiles\sfml_learn.dir\build.make CMakeFiles/sfml_learn.dir/BaseObject.cpp.i
+.PHONY : BaseObject.cpp.i
+
+BaseObject.s: BaseObject.cpp.s
+
+.PHONY : BaseObject.s
+
+# target to generate assembly for a file
+BaseObject.cpp.s:
+	$(MAKE) -f CMakeFiles\sfml_learn.dir\build.make CMakeFiles/sfml_learn.dir/BaseObject.cpp.s
+.PHONY : BaseObject.cpp.s
+
+Frog.obj: Frog.cpp.obj
+
+.PHONY : Frog.obj
+
+# target to build an object file
+Frog.cpp.obj:
+	$(MAKE) -f CMakeFiles\sfml_learn.dir\build.make CMakeFiles/sfml_learn.dir/Frog.cpp.obj
+.PHONY : Frog.cpp.obj
+
+Frog.i: Frog.cpp.i
+
+.PHONY : Frog.i
+
+# target to preprocess a source file
+Frog.cpp.i:
+	$(MAKE) -f CMakeFiles\sfml_learn.dir\build.make CMakeFiles/sfml_learn.dir/Frog.cpp.i
+.PHONY : Frog.cpp.i
+
+Frog.s: Frog.cpp.s
+
+.PHONY : Frog.s
+
+# target to generate assembly for a file
+Frog.cpp.s:
+	$(MAKE) -f CMakeFiles\sfml_learn.dir\build.make CMakeFiles/sfml_learn.dir/Frog.cpp.s
+.PHONY : Frog.cpp.s
+
+Game.obj: Game.cpp.obj
+
+.PHONY : Game.obj
+
+# target to build an object file
+Game.cpp.obj:
+	$(MAKE) -f CMakeFiles\sfml_learn.dir\build.make CMakeFiles/sfml_learn.dir/Game.cpp.obj
+.PHONY : Game.cpp.obj
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles\sfml_learn.dir\build.make CMakeFiles/sfml_learn.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles\sfml_learn.dir\build.make CMakeFiles/sfml_learn.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
+Truck.obj: Truck.cpp.obj
+
+.PHONY : Truck.obj
+
+# target to build an object file
+Truck.cpp.obj:
+	$(MAKE) -f CMakeFiles\sfml_learn.dir\build.make CMakeFiles/sfml_learn.dir/Truck.cpp.obj
+.PHONY : Truck.cpp.obj
+
+Truck.i: Truck.cpp.i
+
+.PHONY : Truck.i
+
+# target to preprocess a source file
+Truck.cpp.i:
+	$(MAKE) -f CMakeFiles\sfml_learn.dir\build.make CMakeFiles/sfml_learn.dir/Truck.cpp.i
+.PHONY : Truck.cpp.i
+
+Truck.s: Truck.cpp.s
+
+.PHONY : Truck.s
+
+# target to generate assembly for a file
+Truck.cpp.s:
+	$(MAKE) -f CMakeFiles\sfml_learn.dir\build.make CMakeFiles/sfml_learn.dir/Truck.cpp.s
+.PHONY : Truck.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +266,18 @@ help:
 	@echo ... edit_cache
 	@echo ... sfml_learn
 	@echo ... rebuild_cache
+	@echo ... BaseObject.obj
+	@echo ... BaseObject.i
+	@echo ... BaseObject.s
+	@echo ... Frog.obj
+	@echo ... Frog.i
+	@echo ... Frog.s
+	@echo ... Game.obj
+	@echo ... Game.i
+	@echo ... Game.s
+	@echo ... Truck.obj
+	@echo ... Truck.i
+	@echo ... Truck.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

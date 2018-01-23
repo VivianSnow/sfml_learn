@@ -12,7 +12,7 @@ set(SFML_STATIC_LIBRARIES TRUE)
 #set(CMAKE_BUILD_TYPE Release)
 find_package(SFML 2 REQUIRED network audio graphics window system)
 include_directories(${SFML_INCLUDE_DIR} ${PROJECT_SOURCE_DIR})
-set(SOURCE_FILES main.cpp   )
+set(SOURCE_FILES main.cpp Frog.cpp Frog.h Truck.cpp Truck.h Game.cpp Game.h BaseObject.cpp BaseObject.h)
 set(HEADER_FILES            )
 #add_executable(sfml_learn ${SOURCE_FILES} ${HEADER_FILES})
 
